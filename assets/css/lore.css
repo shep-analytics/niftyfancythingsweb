@@ -32,14 +32,27 @@
 .middle img {
   margin: 0 auto;
   display: block;
-
   padding: 30px;
 }
 
 .middle .copy-side {
-  line-height: 2.3;
+  line-height: 2;
   padding: 20% 5% 0 5%;
 }
 .middle p {
   font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    text-align: center;
+  }
+  .middle p {
+    font-size: 1rem;
+    line-height: 2;
+  }
+  .middle .row {
+    padding: 0;
+    margin: 10px;
+  }
 }

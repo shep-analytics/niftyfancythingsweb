@@ -13,6 +13,7 @@
 
 .top-info p {
   font-size: 20px;
+  padding: 0 40px;
 }
 
 .top {
@@ -64,4 +65,13 @@
   height: auto;
   width: 100%;
   padding: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .middle p {
+    font-size: 20px;
+  }
+  .middle .row {
+    padding: 0;
+  }
 }
