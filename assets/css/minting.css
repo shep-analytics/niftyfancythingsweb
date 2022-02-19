@@ -57,11 +57,14 @@
 .middle .row {
   margin: 10px 100px;
   padding: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .middle img {
   margin: 0 auto;
-  display: block;
+
   height: auto;
   width: 100%;
   padding: 30px;
