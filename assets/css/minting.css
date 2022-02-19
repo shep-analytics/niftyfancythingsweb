@@ -50,6 +50,7 @@
 
 .middle p {
   font-size: 40px;
+  padding-top: 30%;
 }
 
 .middle .row {
@@ -58,8 +59,9 @@
 }
 
 .middle img {
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+  width: auto;
+  padding: 30px;
 }

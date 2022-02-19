@@ -37,8 +37,10 @@
   padding: 30px;
 }
 
-.middle p {
-  font-size: 15px;
+.middle .copy-side {
   line-height: 2.3;
   padding: 20% 5% 0 5%;
+}
+.middle p {
+  font-size: 15px;
 }
