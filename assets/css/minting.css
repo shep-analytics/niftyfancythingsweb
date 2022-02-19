@@ -61,7 +61,7 @@
 .middle img {
   margin: 0 auto;
   display: block;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   padding: 30px;
 }
