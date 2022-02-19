@@ -1,0 +1,18 @@
+1. Website needs to look good/professional. 
+
+2. The homepage needs to have 3 things: link to our twitter. link to our discord. "mint coming soon" mark
+
+3. There needs to be an "minting" page that has the specific information related to mint day logistics. 
+This includes the following information to be designed and shown however you want:
+•	1024 Unique Crip-To Hood Apes are being generated
+•	All will belong to a different crypto gang, ie. eth, solana, btc
+•	Every 5th ape minted minted will come with a free ape
+•	The presale will be small, only allowing about 100 apes to be minted
+•	Minting gas will be dirt cheap, $30/mint
+
+4. There needs to be a "lore" page 
+that has information about the collection explaining what the different things mean about the apes. For example, tells readers about the face-tats etc. 
+That info is all up right now, and looks terrible.
+
+5. There need to be tons of pictures of different apes all over. 
+I have about 50 different pictures, you can put whichever ones you want wherever, I'll share the folder with you. Just I don't want a ton of whitespace.

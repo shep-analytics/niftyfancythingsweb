@@ -1,0 +1,65 @@
+/*Top */
+.top-info {
+  padding-bottom: 20px;
+}
+
+.icon .bi {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.top-info p {
+  font-size: 20px;
+}
+
+.top {
+  background-color: #2e3740;
+  color: white;
+}
+
+/*carousel */
+.carousel {
+  max-width: 40%;
+}
+
+.carousel {
+  margin: 40px auto;
+}
+
+/*Bottom Info */
+
+.minting .information p {
+  font-size: 20px;
+}
+
+.minting p {
+  line-height: 40px;
+}
+
+.minting h3 {
+  padding-bottom: 20px;
+}
+
+.minting-information {
+  background-color: #2e3740;
+  color: white;
+}
+
+.middle p {
+  font-size: 40px;
+}
+
+.middle .row {
+  margin: 10px 100px;
+  padding: 50px 0;
+}
+
+.middle img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
