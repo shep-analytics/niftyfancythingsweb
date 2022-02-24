@@ -1,25 +1,25 @@
-// date we're counting down to
+// date counting down to
 var countDownDate = new Date("March 9, 2022 9:00:00").getTime();
 
-// Update the count down every 1 second
+// Update  count down
 var x = setInterval(function () {
-  // Get today's date and time
+  // Today's date
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+  // Distance
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+  // Calculations
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Output the result in an element with id="demo"
+  // Output
   document.getElementById("countdown").innerHTML =
     days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-  // If the count down is over, write some text
+  // Over
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "EXPIRED";
