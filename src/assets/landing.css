@@ -1,0 +1,152 @@
+h2 {
+  font-size: 32px;
+  margin: 0;
+  padding: 1% 0 0 4%;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: white;
+  margin-top: 5%;
+}
+
+.yellow {
+  color: #ffc451;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.address {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+button {
+  z-index: 1;
+  display: block;
+  margin: 25px auto;
+  color: white;
+  font-size: 26px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:after {
+  content: "";
+  background: #ffc451;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 13px 50px 13px;
+  }
+}
+
+.mint-btn {
+  margin-top: 50px;
+}
+
+i {
+  color: #ffc451;
+  text-align: center;
+  font-size: 36px;
+  display: inline block;
+  padding: 5px 40px;
+}
+
+i:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input {
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 10px;
+  border-radius: 1px solid white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+label {
+  display: none;
+}
+
+.price {
+  background-color: black;
+  color: rgb(255, 196, 81);
+  text-align: center;
+  width: 200px;
+  display: block;
+  margin: 50px auto;
+  border: solid 1px white;
+  padding: 20px;
+  font-size: 62px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: rgba(255, 196, 81, 0.4) -5px 5px,
+    rgba(255, 196, 81, 0.3) -10px 10px, rgba(255, 196, 81, 0.2) -15px 15px,
+    rgba(255, 196, 81, 0.1) -20px 20px, rgba(255, 196, 81, 0.05) -25px 25px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .address {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  button {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
