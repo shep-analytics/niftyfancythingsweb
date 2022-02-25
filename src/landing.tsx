@@ -11,7 +11,7 @@ export default function Landing() {
   // state vars
   const [value, setValue] = useState(0);
   const [account, setAccount] = useState<string | null>(null);
-  const [contract, setContract] = useState<Contract | null>(null);
+  const [, setContract] = useState<Contract | null>(null);
 
   const price = 0.02;
 
