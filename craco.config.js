@@ -29,6 +29,7 @@ module.exports = {
     },
   ],
   webpack: {
+    ignoreWarnings: [/Failed to parse source map/],
     configure: {
       resolve: {
         fallback: {
