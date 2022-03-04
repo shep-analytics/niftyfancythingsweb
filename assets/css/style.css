@@ -455,6 +455,20 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+
+  #hero .countdown p {
+    font-size: 40px;
+  }
+}
+
+/* Countdown */
+
+.countdown h2 {
+  font-size: 60px;
+}
+
+.countdown p {
+  font-size: 40px;
 }
 
 /*--------------------------------------------------------------
